@@ -1,0 +1,41 @@
+-- Whitelist MainModule --
+
+-- THIS SYSTEM IS ONLY FOR USERES ID!!!
+
+local whitelist = {
+
+	UserWhitelist = {
+		
+
+	},
+
+	Revoking = {    --- Part Is still Not done.
+
+	}
+
+}
+
+return whitelist
+
+But wait??? How do i make it working. Example : require(assetsid) ONLY MAINMOUDLE SCRIPTS.
+-----------------------------------------------------------------------------------------------------------------------------------
+Example :
+
+local whitelist = {
+
+	UserWhitelist = {
+   1, -- Roblox
+   2   -- JoeDoe
+	-- DO NOT ADD A , AT THE END BREAKS SCRIPT!!!
+
+	},
+
+	Revoking = {    --- Part Is still Not done.
+
+	}
+
+}
+
+return whitelist
+
+
